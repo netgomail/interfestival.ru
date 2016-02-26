@@ -1,0 +1,165 @@
+/** Stage container **/
+
+.connected-carousels .stage {
+    width: 1228px;
+	height:355px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.connected-carousels .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.connected-carousels .photo-credits a {
+    color: #fff;
+}
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+    width: 240px;
+    margin: 0px auto;
+    position: relative;
+	z-index:10;
+	margin-top: -3px;  
+}
+
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.connected-carousels .carousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.connected-carousels .carousel li {
+    float: left;
+	margin-right:18px;
+}
+
+.active {
+	background-position: -35px 0px !important;
+}
+
+/** Stage carousel specific styles **/
+
+/*.connected-carousels .carousel-stage {
+    height: 355px;
+}*/
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation {
+    height: 60px;
+}
+
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;
+	width:30px;
+	height:60px;
+	
+}
+
+.connected-carousels .carousel-navigation li img {
+    display: block;
+   // border: 5px solid #fff;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+   // border-color: #ccc;
+}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 26px;
+    height: 355px;
+    color: #fff;
+}
+
+.connected-carousels .prev-stage {
+    left: -65px;
+}
+
+.connected-carousels .next-stage {
+    right: -65px;
+}
+
+.connected-carousels .prev-stage.inactive,
+.connected-carousels .next-stage.inactive {
+   /* display: none;*/
+}
+
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+    display: block;
+    position: absolute;
+    top: 42%;
+    width: 30px;
+    height: 50px;
+    text-align: center;
+	background:url(../../img/slider/arrows.png) no-repeat;
+	
+	}
+	
+.connected-carousels .next-stage span {
+	background:url(../../img/slider/arrows.png)  -28px 0 no-repeat;
+	}
+	
+.connected-carousels .prev-stage span {
+    left: 20px;
+}
+
+.connected-carousels .next-stage span {
+    right: 20px;
+}
+
+.connected-carousels .prev-stage:hover span,
+.connected-carousels .next-stage:hover span {
+    display: block;
+}
+
+/*
+.star
+{
+background: url(../../img/slider/star.png) no-repeat;	
+}
+
+.earth
+{
+background: url(../../img/slider/earth.png) no-repeat;	
+}
+
+.book
+{
+background: url(../../img/slider/book.png) no-repeat;	
+}
+
+.calendar
+{
+background: url(../../img/slider/calendar.png) no-repeat;	
+}
+
+.sun
+{
+background: url(../../img/slider/sun.png) no-repeat;	
+}*/

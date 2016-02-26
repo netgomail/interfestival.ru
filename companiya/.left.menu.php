@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"История", 
+		"/companiya/istoriya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пресс-центр", 
+		"/companiya/press_centr/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Награды", 
+		"/companiya/nagrady/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/companiya/novosty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Звезды приветствуют", 
+		"/companiya/zvezdy_privetstvyut/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наше жюри", 
+		"/companiya/nashe-zhyuri/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/companiya/contacty/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

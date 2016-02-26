@@ -1,0 +1,15 @@
+div.news-detail img.detail_picture
+{
+float:left;
+margin:0 25px 25px 0px;
+}
+
+.news-date-time
+{
+color:#486DAA;
+}
+
+div.news-detail p
+{
+margin-bottom:18px;
+}

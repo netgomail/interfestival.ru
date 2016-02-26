@@ -1,0 +1,61 @@
+h1
+{
+text-transform:uppercase;
+margin-bottom:30px;
+
+}
+
+.awards
+{
+margin-top:65px;
+}
+
+.gallery_item
+{
+height:170px;
+margin-bottom:20px;
+overflow:hidden;
+border-bottom: 1px solid #e7ebed;
+}
+
+.gallery_item .photo
+{
+float:left;
+margin-right:25px;
+height:190px;
+}
+
+.gallery_item .photo img
+{
+border-radius: 8px;
+-moz-border-radius: 8px;
+-o-border-radius: 8px;
+-webkit-border-radius: 8px;
+behavior: url(PIE.htc);	
+border: 1px solid #efefef;
+}
+
+.gallery_item .preview a
+{
+display:block;
+margin-bottom:25px;
+text-decoration:none;
+}
+
+.gallery_item .preview .preview_text
+{
+height:50px;
+overflow:hidden;
+}
+
+.gallery_item .title
+{
+font-size:18px;
+color:#2175b9;
+}
+
+.gallery_item .detail
+{
+margin-top:17px;
+text-decoration:underline !important;
+}

@@ -1,0 +1,1 @@
+<img src="/img/footer_logo.png" width="193" height="51" alt="Логотип" />

@@ -1,0 +1,41 @@
+.countries_menu_detail{
+width:200px;
+margin-top: 45px;
+margin-bottom:40px;
+} 
+
+.countries_menu_detail .country
+{
+width:205px;
+margin-bottom: 10px;
+height:31px;
+position:relative;
+z-index:100;
+} 
+
+.countries_menu_detail .country a
+{
+font-size:11px; 
+} 
+
+.countries_menu_detail .country .flag
+{
+float:left;
+margin-right:5px;
+} 
+
+.countries_menu_detail .country .country_name a 
+{
+font-size:14px; 
+line-height:13px;
+text-transform:uppercase;
+font-family: 'PTSansRegular';
+color:#575757;
+text-decoration:none;
+}
+
+.flag img
+{
+border: 1px solid #CCC;
+}
+

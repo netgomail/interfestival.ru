@@ -1,0 +1,57 @@
+.coutries-list .country 
+{
+margin-bottom:30px;
+border-bottom: 1px solid #b1bcc4;
+padding-bottom: 30px;
+}    
+
+.coutries-list .country a
+{
+text-decoration:none;
+}
+
+.country .preview_picture
+{
+display:inline-block;
+float:left;
+margin-right:20px;
+}
+
+.country .name
+{
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+color: #575757;
+margin-bottom:10px;
+}
+
+.country .fests_soon
+{
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+color: #575757;
+margin-top:20px;
+margin-bottom:10px;
+}
+
+.fest_item
+{
+width:235px;
+height:85px;
+padding-right:10px;
+float:left;
+overflow:hidden;
+}
+
+.preview_picture
+{
+border-radius: 4px !important;
+-moz-border-radius: 4px !important;
+-o-border-radius: 4px !important;
+-webkit-border-radius: 4px !important;
+behavior: url(/bitrix/templates/main/PIE.htc);
+border: 1px solid #CCC;
+}
+

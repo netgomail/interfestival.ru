@@ -1,0 +1,59 @@
+.awards h1
+{
+margin-bottom:30px;
+
+}
+
+.add_photo
+{
+width:150px;
+height:130px;
+float:left;
+margin-right:16px;
+margin-bottom:16px;
+position:relative;
+}
+
+.add_photo p
+{
+margin-top:14px;
+}
+
+.add_photo img,
+.add_photo .curtain
+{
+border-radius: 8px;
+-moz-border-radius: 8px;
+-o-border-radius: 8px;
+-webkit-border-radius: 8px;
+behavior: url(PIE.htc);	
+border:1px solid #efefef;
+display:inline-block;
+border:1px solid #efefef;
+display:inline-block;
+position:relative;
+z-index:1;
+}
+
+.add_photo .curtain
+{
+width:151px;
+height:130px;
+border:none;
+background:url(/img/curtain.png);
+z-index:10;
+position:absolute;
+top:0px;
+right: 0px;
+}
+
+.add_photo .curtain:hover
+{
+background:none;
+}
+
+.hr
+{
+display:inline-block;
+width:935px;
+}

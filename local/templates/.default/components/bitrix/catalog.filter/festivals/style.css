@@ -1,0 +1,62 @@
+.filter_wrap
+{
+margin-top:27px;
+margin-bottom:110px !important;
+}
+
+.select
+{
+width:230px;
+height:30px;
+color: #989898;
+font-size: 14px;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+border:none;
+/*-webkit-box-shadow: inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);
+-moz-box-shadow:    inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);
+box-shadow:         inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);*/
+behavior: url('/bitrix/templates/main/PIE.htc');
+background:none;
+margin-left:14px;
+}  
+	
+.select_wrap
+{
+overflow:hidden;
+width:200px;
+height:30px;
+border: 1px solid #b1bcc4;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-o-border-radius: 4px;
+-webkit-border-radius: 4px;
+/*-webkit-box-shadow: inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);
+-moz-box-shadow:    inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);
+box-shadow:         inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);*/
+behavior: url('/bitrix/templates/main/PIE.htc');
+margin-bottom:15px;
+background:url(/img/select_arow.jpg) no-repeat right 4px top 12px;
+}
+
+ 
+.filter_search
+{
+background:url('/img/filter_search.png') no-repeat;
+cursor:pointer;
+width:202px;
+height:49px;
+border:none;
+margin-top:10px;
+}
+
+.filter_title
+{
+color:#2175b9;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+font-weight:bold;
+margin-bottom:27px;
+display:inline-block;
+	
+}

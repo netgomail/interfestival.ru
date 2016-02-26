@@ -1,0 +1,22 @@
+.fests
+{
+margin-top:30px;
+margin-bottom:60px;
+}
+
+.fest_item
+{
+width:235px;
+height:85px;
+padding-bottom:40px;
+padding-right:10px;
+border-bottom: 1px solid #b1bcc4;
+float:left;
+margin-bottom:30px;
+overflow:hidden;
+}
+
+.fest_item .fest_title
+{
+font-weight:bold;
+}

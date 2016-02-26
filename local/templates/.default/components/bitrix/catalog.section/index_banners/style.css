@@ -1,0 +1,13 @@
+.bottom_pictures_wrap .bottom_pictures_item img
+{
+border: 1px solid #d3d3d3;
+}
+
+.bottom_pictures_wrap .bottom_pictures_item
+{
+float:left;
+width: 238px;
+height: 103px;
+margin-right:7px;
+overflow:hidden;
+}

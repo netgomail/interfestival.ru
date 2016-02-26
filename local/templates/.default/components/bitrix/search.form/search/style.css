@@ -1,0 +1,66 @@
+.search_form
+{
+margin-bottom:30px;	
+}
+
+.search_form input
+{
+border:none !important;
+color: #989898;
+}
+
+.search_form .text
+{
+width: 145px;
+margin-left:7px;
+padding-left: 10px;
+font-size:14px;
+
+}
+
+.search_form .text:focus
+{
+outline:none  !important;
+}
+
+.search_form .loupe
+{
+width: 40px;
+height: 30px;
+cursor:pointer;
+display:block;
+}
+
+.search_form .loupe
+{
+background: url(/img/loupe.png) 50% 50% no-repeat;  
+}
+
+.form_bg
+{
+width:274px;
+height:37px;
+background:#e6eaed;	
+padding: 7px 11px;
+}
+
+.form_border
+{
+width:200px !important;
+height:30px !important;
+background:#fff;
+border: 1px solid #b1bcc4;
+overflow:hidden;
+position:relative;
+z-index:10;
+border-radius: 4px !important;
+-moz-border-radius: 4px !important;
+-o-border-radius: 4px !important;
+-webkit-border-radius: 4px !important;
+/*-webkit-box-shadow: inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);
+-moz-box-shadow: inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);
+box-shadow: inset 7px 7px 5px -5px rgba(50, 50, 50, 0.25);*/
+behavior: url(/bitrix/templates/main/PIE.htc);
+
+}
+

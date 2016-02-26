@@ -1,0 +1,29 @@
+.main_slider_wr {
+width: 1228px;
+margin: 0 auto;
+}
+
+.main_slider_wr .bx-wrapper .bx-viewport {
+box-shadow: none;
+border: none; 
+
+}
+
+.main_slider_wr .bx-wrapper .bx-controls-direction a {
+width: 27px;
+height: 48px;
+background: url(/img/slider/arrows.png) no-repeat;
+z-index: 150
+}
+
+.main_slider_wr .bx-controls-direction a.bx-prev { 
+left: 1px;
+}
+
+.main_slider_wr .bx-controls-direction a.bx-next { 
+background-position: -29px 0px;
+}
+
+.main_slider_wr .bx-wrapper .bx-pager {
+bottom: 25px;
+}

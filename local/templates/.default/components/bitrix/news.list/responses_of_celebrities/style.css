@@ -1,0 +1,99 @@
+h1
+{
+text-transform:uppercase;
+margin-bottom:30px;
+
+}
+
+.awards
+{
+margin-top:65px;
+}
+
+.award_item
+{
+padding-bottom:20px;
+overflow:hidden;
+border-bottom: 1px solid #e7ebed;
+margin-bottom:40px;
+}
+
+.award_item .photo
+{
+float:left;
+margin-right:25px;
+height:100%;
+}
+
+.award_item .photo img
+{
+border-radius: 8px;
+-moz-border-radius: 8px;
+-o-border-radius: 8px;
+-webkit-border-radius: 8px;
+behavior: url(PIE.htc);	
+border: 1px solid #efefef;
+}
+
+.award_item .preview a
+{
+display:block;
+margin-bottom:25px;
+text-decoration:none;
+}
+
+.award_item .preview .preview_text
+{
+overflow:hidden;
+margin-bottom:5px;
+min-height:95px;
+}
+
+.award_item .title
+{
+font-size:18px;
+color:#2175b9;
+margin-bottom: 15px;
+
+}
+
+.award_item .detail
+{
+margin-top:17px;
+text-decoration:underline !important;
+}
+
+.award_item .site,
+.award_item .name
+{
+margin-left:176px;
+}
+
+.award_item .name
+{
+display: inline-block;
+margin-bottom:5px;
+}
+
+.title
+{
+margin-bottom:25px;
+display:inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

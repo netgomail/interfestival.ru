@@ -1,0 +1,175 @@
+#calendar {
+    width: 340px;
+    margin: 0 auto;
+    font-size: 10px;
+    background: #ffffff;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #ffffff 0%, #e3e8ed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e3e8ed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #e3e8ed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #e3e8ed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #e3e8ed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #e3e8ed 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e8ed', GradientType=0);
+    border: 2px solid #d8d8d8;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    behavior: url(/bitrix/templates/.default/components/pixelplus/news.calendar/calendar_compact/PIE.htc);
+    overflow: hidden;
+    position: relative;
+    z-index: 50;
+}
+
+#calendar .fc-view, 
+#calendar .fc-view > table {
+    left: -1px;
+    top: 1px;
+    width: 100.5%;
+}
+
+#calendar .fc-toolbar {
+    margin: 0px;
+    padding: 4px;
+}
+#calendar a.fc-more {
+    position: relative;
+    display: block;
+    font-size: 9px;
+    line-height: 1.3;
+    border-radius: 3px;
+    border: 1px solid #3a87ad;
+    background-color: #3a87ad;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+}
+
+
+#calendar a.fc-more:hover {
+    text-decoration: none;
+}
+#calendar .fc-event,
+#calendar .fc-event:hover,
+#calendar .fc-widget .fc-event {
+    color: #fff;
+    text-decoration: none;
+}
+#calendar .fc-event {
+    position: relative;
+    display: block;
+    font-size: 10px;
+    line-height: 1.3;
+    border-radius: 3px;
+    border: 1px solid #3a87ad;
+    background-color: #3a87ad;
+    font-weight: normal;
+}
+#calendar .fc-popover .fc-content {
+    white-space: normal;
+}
+.fc-header-title h2 {
+    font-size: .9em;
+    white-space: normal !important;
+}
+.fc-view-month .fc-event,
+.fc-view-agendaWeek .fc-event {
+    font-size: 0;
+    height: 2px;
+}
+.fc-view-agendaWeek .fc-event-vert {
+    font-size: 0;
+    overflow: hidden;
+    width: 2px !important;
+}
+.fc-agenda-axis {
+    width: 20px !important;
+    font-size: .7em;
+}
+.fc-button-content {
+    padding: 0;
+}
+.fc-unthemed .fc-popover {
+    border-width: 1px;
+    border-style: solid;
+    top: 0px !important;
+    left: -1px !important;
+    width: 342px;
+    height: 265px;
+}
+.cust-popover {
+    width: 342px;
+    height: 265px;
+    border-color: #ddd;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+    z-index: 10;
+}
+.cust-clear {
+    clear: both;
+}
+.cust-header .cust-title,
+.cust-rtl .cust-popover .cust-header .cust-close {
+    float: left;
+}
+.cust-popover .cust-header .cust-title {
+    margin: 0 2px;
+    color: #2f2f2f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cust-more-popover .cust-event-container {
+    padding: 10px;
+}
+.cust-popover .cust-header {
+    background: #eee;
+    padding: 2px 4px;
+}
+.cust-event,
+.cust-event:hover,
+.cust-widget .fc-event {
+    color: #fff;
+    text-decoration: none;
+}
+.cust-event {
+    position: relative;
+    display: block;
+    font-size: 10px;
+    line-height: 1.3;
+    border-radius: 3px;
+    border: 1px solid #3a87ad;
+    background-color: #3a87ad;
+    font-weight: normal;
+}
+.cust-header .cust-close {
+    color: #666;
+    margin-top: 2px;
+    float: right;
+}
+.cust-icon-x:after {
+    content: "\000D7";
+    font-size: 200%;
+    top: 6%;
+}
+.cust-icon:after {
+    position: relative;
+    margin: 0 -1em;
+}
+.cust-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    font-size: 1em;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Courier New", Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}

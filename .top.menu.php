@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Фестивали", 
+		"/festivaly/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Страны", 
+		"/strany/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Цены", 
+		"/ceny/pricelist.doc", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"/companiya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Заявка online", 
+		"/zayavka_online/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,37 @@
+.bottom_menu_countries
+{
+position:absolute;
+top: 45px;
+left: 280px;
+z-index:100;
+}
+
+.country-list .title
+{
+font-size: 14px;
+line-height:18px;
+font-weight:bold;
+color:#fff;
+margin-left:10px;	
+}
+
+div.country-item
+{
+float:left;
+margin-left:10px;
+}
+
+div.country-item a
+{
+text-decoration:none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 26px;
+color: #d9e0ed;
+}
+
+div.country-item a:hover
+{
+text-decoration:underline;
+color: #fff;
+}

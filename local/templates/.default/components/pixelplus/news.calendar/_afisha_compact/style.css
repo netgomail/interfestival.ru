@@ -1,0 +1,93 @@
+.afisha_header {
+	float:left; 
+	width:70px;
+	height:29px; 
+	padding:3px; 
+	margin:1px; 
+	font-size:11px; 
+	color:#000; 
+	text-align:center;
+}
+
+.days {
+	float:left;
+	border:1px solid #B3B3B3; 
+	width:74px; 
+	height:62px; 
+	margin:1px; 
+	font-size:13px; 
+	color:#a7904d; 
+	text-align:right;
+	position:relative;
+	background:#fcf3df;
+	font-weight:bold;
+}
+
+.NewsCalWeekend a, .NewsCalToday a, .NewsCalDefault a, .NewsCalOtherMonth a {
+	color:#fff;
+}
+
+.NewsCalOtherMonth {
+	color:#C5B890;
+}
+
+.afisha_picture {
+	position:absolute; 
+	width:100%; 
+	height:100%; 
+	overflow:hidden;
+}
+
+.afisha_black {
+	position:absolute; 
+	z-index:3; 
+	background:#000; 
+	width:100%; 
+	height:100%; 
+	opacity:0.2; 
+	-moz-opacity:0.2; 
+	filter:alpha(opacity=20);
+}
+
+.afisha_black2 {
+	position:absolute; 
+	z-index:3; 
+	background:#000; 
+	width:100%; 
+	height:100%; 
+	opacity:0.7; 
+	-moz-opacity:0.7; 
+	filter:alpha(opacity=70);
+}
+
+.afisha_date {
+	position:absolute; 
+	top:3px; 
+	right:3px; 
+	z-index:5;
+}
+
+.calendar_popup {
+	position: absolute;
+	width:180px;
+	display:none;
+	font-size: 11px;
+	top:15px; 
+	left:14px;
+	padding:10px;
+	border:2px solid #fff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: #e8dab8;
+	behavior: url(/PIE.htc);
+	/*opacity:0.8; -moz-opacity:0.8; filter:alpha(opacity=80);*/
+	z-index:30;
+	text-align:left;
+	color:#5a5a5a;
+	font-weight:normal;
+}
+
+.calendar_popup b a {
+         color:#334628;
+}

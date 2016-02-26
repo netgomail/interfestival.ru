@@ -1,0 +1,60 @@
+h1
+{
+text-transform:uppercase;
+margin-bottom:30px;
+
+}
+
+.awards
+{
+margin-top:65px;
+}
+
+.award_item
+{
+margin-bottom:20px;
+overflow:hidden;
+border-bottom: 1px solid #e7ebed;
+}
+
+.award_item .photo
+{
+float:left;
+margin-right:25px;
+}
+
+.award_item .photo img
+{
+border-radius: 8px;
+-moz-border-radius: 8px;
+-o-border-radius: 8px;
+-webkit-border-radius: 8px;
+behavior: url(PIE.htc);	
+border: 1px solid #efefef;
+}
+
+.award_item .preview a
+{
+display:block;
+margin-bottom:15px;
+text-decoration:none;
+}
+
+.award_item .preview .preview_text
+{
+min-height:80px;
+margin-left: 176px;
+margin-bottom:5px;
+}
+
+.award_item .title
+{
+font-size:18px;
+color:#2175b9;
+}
+
+.award_item .detail
+{
+text-decoration:underline !important;
+margin-left:176px;
+}

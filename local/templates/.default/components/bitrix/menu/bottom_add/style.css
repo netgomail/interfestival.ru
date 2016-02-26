@@ -1,0 +1,27 @@
+/* Left menu*/
+.bottom_add_menu
+{
+position:absolute;
+top:40px;
+right: 18px;
+z-index:100;
+}
+ul.bottom_add
+{
+list-style:none;
+margin:0; padding:0;
+margin-bottom:8px;
+position: relative; /*IE bug*/
+}
+
+.bottom_add li a
+{
+font-size: 14px;
+line-height:26px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+}
+
+
+
